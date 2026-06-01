@@ -1,5 +1,4 @@
-Computer: The processor inside the CPU is the computer.
-	its the one which computes,solves.
+The processor (CPU) is the component that executes instructions and controls the operation of the computer.
 Programming/coding: Its a process of communicating with the processor.
 Programming Language: A medium to communicate to the processor. 
 Coders/programmers: People who communicate with processors using a programming language
