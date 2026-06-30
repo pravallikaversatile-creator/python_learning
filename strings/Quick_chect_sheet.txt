@@ -1,0 +1,42 @@
+
+#Changing case
+s.upper() #"hello".upper() → "HELLO"
+s.lower() #"Hello".lower() → "hello"
+s.title() #"hello world".title() → "Hello World" 
+s.capitalize() #"python".capitalize() → "Python"
+s.swapcase() #"PyThOn".swapcase() → "pYtHoN"
+
+#Removing spaces
+s.strip() #removes space both sides #" hi ".strip() → "hi"
+s.lstrip() #removes space on left side #" hi ".strip() → "hi "
+s.rstrip()  #removes space on right side #" hi ".strip() → " hi"
+
+#Searching
+s.find("x") #returns index if found or -1 if not found #"hello".find("l") → 2 
+s.rfind("x") #search from right
+s.index("x") #like find but errors if not found
+s.count("x") #"banana".count("a") → 3
+s.startswith("he") #"hello".startswith("he")
+s.endswith("lo") #"hello".endswith("lo")
+
+#Modifying Strings
+s.replace("old", "new") #"hello world".replace("world", "Python")
+s.split(",") #"a,b,c".split(",") → ["a","b","c"]
+" ".join(list) #" ".join(["hello","world"])
+s.partition(":") #splits into 3 parts
+s = "Hello\nWorld\nPython"
+print(s.splitlines())
+['Hello', 'World', 'Python']
+
+#Checking string content
+s.isdigit()
+s.isalpha()
+s.isalnum()
+s.isspace()
+s.islower()
+s.isupper()
+s.istitle()
+
+#Length
+len(s) #len("hello") → 5
+

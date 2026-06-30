@@ -1,0 +1,19 @@
+#Exercise 1
+l=[1,2,3,4,5,6]
+i=int(input("Enter index of element to be printed: "))
+print(f"Element at index {i} is: {l[i]}")
+d=int(input("Enter by which number should the index element be divided: "))
+up=int(l[i]/d)
+print(f"Element at index {i} after division with d is : {up}")
+l[i]=up
+print(f"Final list is {l}")
+
+#Exercise 1
+l=[1,2,3,4,5,6]
+i=int(input("Enter index of element to be printed: "))
+print(f"Element at index {i} is: {l[i]}")
+d=int(input("Enter by which number should the index element be divided: "))
+up=int(l[i]/d)
+print(f"Element at index {i} after division with d is : {up}")
+l[i]=up
+print(f"Final list is {l}")
