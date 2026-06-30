@@ -1,0 +1,17 @@
+{
+    "FirstName": "Sam",
+    "LastName": "Jackson",
+    "EmployeeID": 553938,
+    "Designation": "Manager",
+    "LanguageExpertise": [
+        "Java",
+        "C#",
+        "Python"
+    ],
+    "Car": {
+        "makeModel1": "Maruthi Suzki Swift",
+        "makeYear": 2017,
+        "color": "Red",
+        "type": "Hatchback"
+    }
+}
